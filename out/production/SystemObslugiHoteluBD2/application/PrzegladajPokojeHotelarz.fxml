@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrzegladajPokojeHotelarzController">
+   <children>
+      <TableView layoutX="40.0" layoutY="28.0" prefHeight="200.0" prefWidth="623.0">
+        <columns>
+          <TableColumn prefWidth="64.0" text="ID" />
+          <TableColumn prefWidth="74.0" text="ID Klient" />
+            <TableColumn prefWidth="87.0" text="Nr pokoju" />
+            <TableColumn prefWidth="75.0" text="Piętro" />
+            <TableColumn prefWidth="120.0" text="Poziom standardu" />
+            <TableColumn prefWidth="98.0" text="Liczba osób" />
+            <TableColumn prefWidth="103.0" text="Cena za dobę" />
+        </columns>
+      </TableView>
+      <ScrollBar layoutX="40.0" layoutY="214.0" prefHeight="14.0" prefWidth="623.0" />
+      <Button layoutX="624.0" layoutY="252.0" mnemonicParsing="false" onAction="#powrot" text="Powrót" />
+   </children>
+</Pane>

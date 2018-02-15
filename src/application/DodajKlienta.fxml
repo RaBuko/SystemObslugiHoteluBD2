@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0"
+      prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="application.DodajKlientaController">
+   <Label layoutX="132.0" layoutY="14.0" text="Uzupełnij dane nowego klienta:"/>
+   <Label layoutX="54.0" layoutY="57.0" text="Imię:"/>
+   <Label layoutX="54.0" layoutY="87.0" text="Nazwisko:"/>
+   <Label layoutX="54.0" layoutY="120.0" text="**E-mail:"/>
+   <Label layoutX="53.0" layoutY="153.0" text="**Numer telefonu:"/>
+   <Label layoutX="55.0" layoutY="186.0" text="Rodzaj dokumentu:"/>
+   <Label layoutX="52.0" layoutY="217.0" text="NumerDokumentu:"/>
+   <Label layoutX="56.0" layoutY="248.0" text="*Język:"/>
+   <TextField fx:id="imieField" layoutX="175.0" layoutY="53.0"/>
+   <TextField fx:id="nazwiskoField" layoutX="175.0" layoutY="83.0"/>
+   <TextField fx:id="emailField" layoutX="175.0" layoutY="116.0"/>
+   <TextField fx:id="numerTelefonuField" layoutX="175.0" layoutY="149.0"/>
+   <TextField fx:id="rodzajDokumentuField" layoutX="175.0" layoutY="186.0"/>
+   <TextField fx:id="numerDokumentuField" layoutX="175.0" layoutY="217.0"/>
+   <TextField fx:id="jezykField" layoutX="175.0" layoutY="248.0"/>
+   <Button layoutX="403.0" layoutY="92.0" mnemonicParsing="false" onAction="#dodaj" text="Dodaj klienta"/>
+   <Button layoutX="421.0" layoutY="162.0" mnemonicParsing="false" onAction="#powrot" text="Anuluj"/>
+   <Label layoutX="503.0" layoutY="239.0" text="*Opcjonalne"/>
+   <Label layoutX="503.0" layoutY="260.0" text="**Jedno z pól musi być wypełnione"/>
+</Pane>

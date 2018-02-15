@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuHotelarzController">
+   <children>
+      <Label layoutX="260.0" layoutY="38.0" text="Wybierz interesującą Ciebie opcję:" />
+      <Button layoutX="63.0" layoutY="102.0" mnemonicParsing="false" onAction="#przegladajKlientow" text="Przeglądaj klientów" />
+      <Button layoutX="285.0" layoutY="102.0" mnemonicParsing="false" onAction="#przegladajRezerwacje" text="Przeglądaj rezerwacje" />
+      <Button layoutX="514.0" layoutY="102.0" mnemonicParsing="false" onAction="#przegladajPokoje" text="Przeglądaj pokoje" />
+      <Button layoutX="488.0" layoutY="245.0" mnemonicParsing="false" onAction="#zmienHaslo" text="Zmień hasło" />
+      <Label fx:id="ImieNazwiskoEmailLabel" layoutX="36.0" layoutY="249.0" text="Zalogowano jako:   Imie Nazwisko">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Label>
+      <Button layoutX="608.0" layoutY="245.0" mnemonicParsing="false" onAction="#wyloguj" text="Wyloguj" />
+   </children>
+</Pane>

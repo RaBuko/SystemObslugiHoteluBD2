@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EdytujPracownikaController">
+   <children>
+      <Label layoutX="149.0" layoutY="48.0" text="Wprowadź nowe dane pracownika:" />
+      <Label layoutX="71.0" layoutY="102.0" text="*Imię:" />
+      <Label layoutX="71.0" layoutY="132.0" text="*Nazwisko:" />
+      <Label layoutX="71.0" layoutY="165.0" text="E-mail:" />
+      <Label layoutX="70.0" layoutY="198.0" text="Hasło:" />
+      <Label layoutX="72.0" layoutY="231.0" text="*Data urodzenia:" />
+      <TextField layoutX="192.0" layoutY="98.0" />
+      <TextField layoutX="192.0" layoutY="128.0" />
+      <TextField layoutX="192.0" layoutY="161.0" />
+      <TextField layoutX="192.0" layoutY="194.0" />
+      <TextField layoutX="192.0" layoutY="227.0" />
+      <Button layoutX="428.0" layoutY="120.0" mnemonicParsing="false" onAction="#edytuj" text="Edytuj pracownika" />
+      <Button layoutX="459.0" layoutY="182.0" mnemonicParsing="false" onAction="#powrot" text="Anuluj" />
+      <Label layoutX="593.0" layoutY="267.0" text="*Opcjonalne" />
+   </children>
+</Pane>

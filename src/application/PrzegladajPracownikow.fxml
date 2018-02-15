@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrzegladajPracownikowController">
+   <children>
+      <TableView layoutX="110.0" layoutY="21.0" prefHeight="200.0" prefWidth="480.0">
+        <columns>
+          <TableColumn prefWidth="25.0" />
+          <TableColumn prefWidth="108.0" text="E-mail" />
+            <TableColumn prefWidth="81.0" text="Hasło" />
+            <TableColumn prefWidth="77.0" text="Imię" />
+            <TableColumn prefWidth="97.0" text="Nazwisko" />
+            <TableColumn prefWidth="91.0" text="Data urodzenia" />
+        </columns>
+      </TableView>
+      <Button layoutX="24.0" layoutY="252.0" mnemonicParsing="false" onAction="#dodajPracownika" text="Dodaj pracownika" />
+      <Button layoutX="153.0" layoutY="252.0" mnemonicParsing="false" onAction="#usunPracownika" text="Usuń pracownika" />
+      <Button layoutX="276.0" layoutY="252.0" mnemonicParsing="false" onAction="#edytujDane" text="Edytuj dane" />
+      <Button layoutX="627.0" layoutY="252.0" mnemonicParsing="false" onAction="#powrot" text="Powrót" />
+      <ScrollBar layoutX="590.0" layoutY="21.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="14.0" />
+   </children>
+</Pane>

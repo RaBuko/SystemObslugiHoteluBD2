@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0"
+      prefWidth="569.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="application.PrzegladajKlientowController">
+    <TableView fx:id="clientsTable" editable="true" layoutX="7.0" layoutY="6.0" prefHeight="210.0" prefWidth="600.0">
+      <columns>
+          <TableColumn fx:id="idColumn" prefWidth="25.0" text="ID"/>
+          <TableColumn fx:id="hotelarzIdColumn" prefWidth="70.0" text="HotelarzID"/>
+          <TableColumn fx:id="imieColumn" prefWidth="70.0" text="Imię"/>
+          <TableColumn fx:id="nazwiskoColumn" prefWidth="100.0" text="Nazwisko"/>
+          <TableColumn fx:id="telefonColumn" prefWidth="100.0" text="Telefon"/>
+          <TableColumn fx:id="emailColumn" prefWidth="100.0" text="E-mail"/>
+          <TableColumn fx:id="rodzajdokumentuColumn" prefWidth="90.0" text="Rodzaj dokum."/>
+          <TableColumn fx:id="numerdokumentuColumn" prefWidth="90.0" text="Numer dokum."/>
+          <TableColumn fx:id="jezykColumn" prefWidth="60.0" text="Jezyk"/>
+      </columns>
+        <opaqueInsets>
+          <Insets/>
+        </opaqueInsets>
+    </TableView>
+    <Button layoutX="14.0" layoutY="250.0" mnemonicParsing="false" onAction="#dodajKlienta" text="Dodaj klienta"/>
+    <Button layoutX="115.0" layoutY="250.0" mnemonicParsing="false" onAction="#usunKlienta" text="Usuń klienta"/>
+    <Button layoutX="209.0" layoutY="250.0" mnemonicParsing="false" onAction="#edytujDane" text="Edytuj dane"/>
+    <Button layoutX="503.0" layoutY="250.0" mnemonicParsing="false" onAction="#powrot" text="Powrót"/>
+</Pane>

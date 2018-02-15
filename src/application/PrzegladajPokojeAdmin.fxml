@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrzegladajPokojeAdminController">
+   <children>
+      <TableView layoutX="35.0" layoutY="27.0" prefHeight="200.0" prefWidth="630.0">
+        <columns>
+          <TableColumn prefWidth="25.0" />
+          <TableColumn prefWidth="69.0" text="ID" />
+            <TableColumn prefWidth="95.0" text="ID Klient" />
+            <TableColumn prefWidth="87.0" text="Nr pokoju" />
+            <TableColumn prefWidth="61.0" text="Piętro" />
+            <TableColumn prefWidth="113.0" text="Poziom standardu" />
+            <TableColumn prefWidth="83.0" text="Liczba osób" />
+            <TableColumn prefWidth="96.0" text="Cena za dobę" />
+        </columns>
+      </TableView>
+      <ScrollBar layoutX="36.0" layoutY="220.0" prefHeight="14.0" prefWidth="630.0" />
+      <Button layoutX="614.0" layoutY="252.0" mnemonicParsing="false" onAction="#powrot" text="Powrót" />
+      <Button layoutX="35.0" layoutY="252.0" mnemonicParsing="false" onAction="#dodajPokoj" text="Dodaj pokój" />
+      <Button layoutX="131.0" layoutY="252.0" mnemonicParsing="false" onAction="#usunPokoj" text="Usuń pokój" />
+      <Button layoutX="220.0" layoutY="252.0" mnemonicParsing="false" onAction="#edytujDane" text="Edytuj dane" />
+      <ScrollBar layoutX="661.0" layoutY="28.0" orientation="VERTICAL" prefHeight="193.0" prefWidth="14.0" />
+   </children>
+</Pane>

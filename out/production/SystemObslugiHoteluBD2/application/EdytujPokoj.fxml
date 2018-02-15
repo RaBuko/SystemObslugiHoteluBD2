@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EdytujPokojController">
+   <children>
+      <Label layoutX="150.0" layoutY="35.0" text="Wprowadź nowe dane pokoju:" />
+      <Label layoutX="76.0" layoutY="81.0" text="Numer pokoju" />
+      <Label layoutX="76.0" layoutY="111.0" text="Piętro" />
+      <Label layoutX="76.0" layoutY="144.0" text="Poziom standardu:" />
+      <Label layoutX="75.0" layoutY="177.0" text="Cena za dobę:" />
+      <Label layoutX="75.0" layoutY="215.0" text="Ilość osób:" />
+      <TextField layoutX="197.0" layoutY="77.0" />
+      <TextField layoutX="197.0" layoutY="107.0" />
+      <TextField layoutX="197.0" layoutY="140.0" />
+      <TextField layoutX="197.0" layoutY="173.0" />
+      <SplitMenuButton layoutX="197.0" layoutY="211.0" mnemonicParsing="false" text="0">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </SplitMenuButton>
+      <Button layoutX="447.0" layoutY="99.0" mnemonicParsing="false" onAction="#edytuj" text="Edytuj pokój" />
+      <Button layoutX="462.0" layoutY="161.0" mnemonicParsing="false" onAction="#powrot" text="Anuluj" />
+   </children>
+</Pane>
